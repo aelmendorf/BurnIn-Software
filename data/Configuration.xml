@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation='Configuration.xsd'>
-	<TestSetting>
-		<IntTime>400</IntTime>
-		<Samples>3</Samples>
-	</TestSetting>
-</Configuration>
