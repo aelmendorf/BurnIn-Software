@@ -29,7 +29,6 @@
 		</Item>
 		<Item Name="Burn-In Testing_v2.vi" Type="VI" URL="../Burn-In Testing_v2.vi"/>
 		<Item Name="BurninRTM.rtm" Type="Document" URL="../BurninRTM.rtm"/>
-		<Item Name="ConfigKeyTypes.ctl" Type="VI" URL="/C/ConfigKeyTypes.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -110,97 +109,101 @@
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Burn-In Testing_v2" Type="EXE">
+			<Item Name="Burn-In Testing" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{ED36A931-C426-4C76-BAE1-799383AE45BE}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{2E1AC083-7B1B-47A3-A8F1-0F112A2F2E97}</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{C73B7840-37FC-4585-B7BC-A5D1570D928C}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Burn-In Testing_v2</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{84049507-9D3B-4A3A-9804-F6EF59570D94}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{7E0C3277-9149-4FD4-BBEC-EDCBC7643701}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{FAB8ED0E-76D3-44A6-ABFB-6F173B8C5FE2}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Burn-In Testing</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Burn-In Testing_v2</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Burn-In Testing</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{D4FBC006-8ADE-4917-BFF6-C63324BAF917}</Property>
-				<Property Name="Destination[0].destName" Type="Str">BurnInTesting.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Burn-In Testing_v2/BurnInTesting.exe</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{1A70C6C7-CFF6-4CEE-AFB3-8032776ADA7C}</Property>
+				<Property Name="Destination[0].destName" Type="Str">Burn-In Software.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Burn-In Testing/Burn-In Software.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Burn-In Testing_v2/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Burn-In Testing/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Resources/seti_logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F292D5B3-2940-4D07-9410-745D223DFD59}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2AC26DFC-FF73-4B37-B54F-BA92101A72B0}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Burn-In Testing_v2.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Instruments/Drivers/OceanOptics/References/common32.lib</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Instruments/Drivers/OceanOptics/References/common32.dll</Property>
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Instruments/Drivers/OceanOptics/References/OmniDriver32.dll</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/Instruments/Drivers/OceanOptics/References/common32.dll.intermediate.manifest</Property>
 				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Instruments/Drivers/OceanOptics/References/OmniDriver32.dll.intermediate.manifest</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Instruments/Drivers/OceanOptics/References/common32.lib</Property>
 				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Instruments/Drivers/OceanOptics/References/OmniDriver32.lib</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Instruments/Drivers/OceanOptics/References/OmniDriver32.dll</Property>
 				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/My Computer/Instruments/Drivers/OceanOptics/References/OmniDriver64.dll</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/My Computer/Instruments/Drivers/OceanOptics/References/OmniDriver32.dll.intermediate.manifest</Property>
 				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[15].itemID" Type="Ref">/My Computer/Instruments/Drivers/OceanOptics/References/OmniDriver64.dll.intermediate.manifest</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/My Computer/Instruments/Drivers/OceanOptics/References/OmniDriver32.lib</Property>
 				<Property Name="Source[15].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[16].itemID" Type="Ref">/My Computer/Instruments/Drivers/OceanOptics/References/OmniDriver64.lib</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/My Computer/Instruments/Drivers/OceanOptics/References/OmniDriver64.dll</Property>
 				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Classes</Property>
-				<Property Name="Source[2].properties[0].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[2].propertiesCount" Type="Int">1</Property>
-				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="Source[17].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[17].itemID" Type="Ref">/My Computer/Instruments/Drivers/OceanOptics/References/OmniDriver64.dll.intermediate.manifest</Property>
+				<Property Name="Source[17].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[18].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[18].itemID" Type="Ref">/My Computer/Instruments/Drivers/OceanOptics/References/OmniDriver64.lib</Property>
+				<Property Name="Source[18].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Resources/DB_Methods.bas</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Resources/DB_Methods.bas</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Resources/EPI_BurnIn_Wafer.jpg</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Resources/EPI_BurnIn_Wafer.jpg</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Resources/EPI_Wafer_Labels.jpg</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Resources/EPI_Wafer_Labels.jpg</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Resources/EPI_Wafer_small.jpg</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Resources/EPI_Wafer_small.jpg</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Resources/epidbconnection.udl</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Resources/Tab Control.png</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Resources/seti_logo.ico</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Instruments/Drivers/OceanOptics/References/common32.dll</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Resources/Tab Control.png</Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Instruments/Drivers/OceanOptics/References/common32.dll.intermediate.manifest</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Resources/TestConfiguration.cfg</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">17</Property>
+				<Property Name="SourceCount" Type="Int">19</Property>
 				<Property Name="TgtF_autoIncrement" Type="Bool">true</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Burn-In Testing_v2</Property>
-				<Property Name="TgtF_fileVersion.build" Type="Int">8</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Burn-In Testing</Property>
+				<Property Name="TgtF_fileVersion.build" Type="Int">14</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
-				<Property Name="TgtF_internalName" Type="Str">Burn-In Testing_v2</Property>
+				<Property Name="TgtF_internalName" Type="Str">Burn-In Testing</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 </Property>
-				<Property Name="TgtF_productName" Type="Str">Burn-In Testing_v2</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{D9732CC6-110F-4D99-BD9C-41649F12ADBB}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">BurnInTesting.exe</Property>
+				<Property Name="TgtF_productName" Type="Str">Burn-In Testing</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{27726DBF-9B48-4046-8D75-FEB46F00794F}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Burn-In Software.exe</Property>
 			</Item>
-			<Item Name="Epi BurnIn Installer" Type="Installer">
+			<Item Name="BurnInInstaller" Type="Installer">
 				<Property Name="Destination[0].name" Type="Str">EPI_BurnIn</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
-				<Property Name="Destination[0].tag" Type="Str">{A1AA7446-CCFD-49A9-89EE-F4AC5645AD39}</Property>
+				<Property Name="Destination[0].tag" Type="Str">{ABA3B3DF-DB42-4121-BC41-C8CA9CE305B8}</Property>
 				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[0].unlock" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">1</Property>
 				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
 				<Property Name="DistPart[0].productID" Type="Str">{68044F4C-00EA-44D0-84E6-AC29FC5FAA12}</Property>
@@ -208,33 +211,37 @@
 				<Property Name="DistPart[0].upgradeCode" Type="Str">{20385C41-50B1-4416-AC2A-F7D6423A9BD6}</Property>
 				<Property Name="DistPartCount" Type="Int">1</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">../builds/EPI_BurnIn/Epi BurnIn Installer</Property>
+				<Property Name="INST_buildLocation" Type="Path">../builds/EPI_BurnIn/BurnInInstaller</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
-				<Property Name="INST_buildSpecName" Type="Str">Epi BurnIn Installer</Property>
-				<Property Name="INST_defaultDir" Type="Str">{A1AA7446-CCFD-49A9-89EE-F4AC5645AD39}</Property>
+				<Property Name="INST_buildSpecName" Type="Str">BurnInInstaller</Property>
+				<Property Name="INST_defaultDir" Type="Str">{ABA3B3DF-DB42-4121-BC41-C8CA9CE305B8}</Property>
 				<Property Name="INST_productName" Type="Str">EPI_BurnIn</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.2</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.3</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">12018014</Property>
-				<Property Name="MSI_arpCompany" Type="Str">Sensor Electronic Technology</Property>
-				<Property Name="MSI_distID" Type="Str">{6B4E0393-C416-4E79-A6F3-3E254EC8026F}</Property>
+				<Property Name="MSI_arpCompany" Type="Str">Sensor Electronic Technologies</Property>
+				<Property Name="MSI_distID" Type="Str">{07498660-5477-44AD-9E0F-FC3638E66FF7}</Property>
 				<Property Name="MSI_osCheck" Type="Int">0</Property>
-				<Property Name="MSI_upgradeCode" Type="Str">{D80DCBAB-B586-42A9-AEEC-6C261587BCCC}</Property>
+				<Property Name="MSI_upgradeCode" Type="Str">{24A29C11-31E1-47BA-AAF1-F9D636F9C55C}</Property>
+				<Property Name="MSI_windowTitle" Type="Str">SETi Burn-In Software Installer</Property>
 				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
 				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
 				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
 				<Property Name="RegDestCount" Type="Int">1</Property>
-				<Property Name="Source[0].dest" Type="Str">{A1AA7446-CCFD-49A9-89EE-F4AC5645AD39}</Property>
-				<Property Name="Source[0].File[0].dest" Type="Str">{A1AA7446-CCFD-49A9-89EE-F4AC5645AD39}</Property>
-				<Property Name="Source[0].File[0].name" Type="Str">BurnInTesting.exe</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">BurnInTesting</Property>
+				<Property Name="Source[0].dest" Type="Str">{ABA3B3DF-DB42-4121-BC41-C8CA9CE305B8}</Property>
+				<Property Name="Source[0].File[0].dest" Type="Str">{ABA3B3DF-DB42-4121-BC41-C8CA9CE305B8}</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">Burn-In Software.exe</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">2</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Burn-In Software</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">EPI_BurnIn</Property>
-				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
-				<Property Name="Source[0].File[0].tag" Type="Str">{D9732CC6-110F-4D99-BD9C-41649F12ADBB}</Property>
+				<Property Name="Source[0].File[0].Shortcut[1].destIndex" Type="Int">0</Property>
+				<Property Name="Source[0].File[0].Shortcut[1].name" Type="Str">Burn-In Software</Property>
+				<Property Name="Source[0].File[0].Shortcut[1].subDir" Type="Str">EPI_BurnIn</Property>
+				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">2</Property>
+				<Property Name="Source[0].File[0].tag" Type="Str">{27726DBF-9B48-4046-8D75-FEB46F00794F}</Property>
 				<Property Name="Source[0].FileCount" Type="Int">1</Property>
-				<Property Name="Source[0].name" Type="Str">Burn-In Testing_v2</Property>
-				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Burn-In Testing_v2</Property>
+				<Property Name="Source[0].name" Type="Str">Burn-In Testing</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Burn-In Testing</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="SourceCount" Type="Int">1</Property>
 			</Item>
