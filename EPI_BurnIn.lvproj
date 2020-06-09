@@ -78,6 +78,8 @@
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
+				<Item Name="Open Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Open Registry Key.vi"/>
+				<Item Name="Query Registry Key Info.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Query Registry Key Info.vi"/>
 				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
 				<Item Name="Read From Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (DBL).vi"/>
 				<Item Name="Read From Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (I64).vi"/>
@@ -85,6 +87,16 @@
 				<Item Name="Read From Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File.vi"/>
 				<Item Name="Read JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Read JPEG File.vi"/>
 				<Item Name="Read Lines From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File.vi"/>
+				<Item Name="Read Registry Value DWORD.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value DWORD.vi"/>
+				<Item Name="Read Registry Value Simple STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple STR.vi"/>
+				<Item Name="Read Registry Value Simple U32.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple U32.vi"/>
+				<Item Name="Read Registry Value Simple.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value Simple.vi"/>
+				<Item Name="Read Registry Value STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value STR.vi"/>
+				<Item Name="Read Registry Value.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value.vi"/>
+				<Item Name="Registry refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry refnum.ctl"/>
+				<Item Name="Registry RtKey.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry RtKey.ctl"/>
+				<Item Name="Registry Simplify Data Type.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry Simplify Data Type.vi"/>
+				<Item Name="Registry View.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry View.ctl"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
@@ -130,7 +142,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Burn-In Testing/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Resources/seti_logo.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2AC26DFC-FF73-4B37-B54F-BA92101A72B0}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{11945F74-403E-442D-8E48-ECB5A6193B05}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Burn-In Testing_v2.vi</Property>
@@ -190,7 +202,7 @@
 				<Property Name="SourceCount" Type="Int">19</Property>
 				<Property Name="TgtF_autoIncrement" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Burn-In Testing</Property>
-				<Property Name="TgtF_fileVersion.build" Type="Int">14</Property>
+				<Property Name="TgtF_fileVersion.build" Type="Int">17</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
 				<Property Name="TgtF_internalName" Type="Str">Burn-In Testing</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 </Property>
@@ -216,18 +228,26 @@
 				<Property Name="INST_buildSpecName" Type="Str">BurnInInstaller</Property>
 				<Property Name="INST_defaultDir" Type="Str">{ABA3B3DF-DB42-4121-BC41-C8CA9CE305B8}</Property>
 				<Property Name="INST_productName" Type="Str">EPI_BurnIn</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.3</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.9</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">12018014</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Sensor Electronic Technologies</Property>
 				<Property Name="MSI_distID" Type="Str">{07498660-5477-44AD-9E0F-FC3638E66FF7}</Property>
 				<Property Name="MSI_osCheck" Type="Int">0</Property>
-				<Property Name="MSI_upgradeCode" Type="Str">{24A29C11-31E1-47BA-AAF1-F9D636F9C55C}</Property>
+				<Property Name="MSI_upgradeCode" Type="Str">{77891992-A120-4312-A960-6D9F337E2F7D}</Property>
 				<Property Name="MSI_windowTitle" Type="Str">SETi Burn-In Software Installer</Property>
 				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
 				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
 				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
-				<Property Name="RegDestCount" Type="Int">1</Property>
+				<Property Name="RegDest[1].dirName" Type="Str">Burn-In</Property>
+				<Property Name="RegDest[1].dirTag" Type="Str">{691CEB1C-0EC3-4D62-8B2B-1D3CE660605D}</Property>
+				<Property Name="RegDest[1].parentTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
+				<Property Name="RegDestCount" Type="Int">2</Property>
+				<Property Name="RegGroup[0].dirTag" Type="Str">{691CEB1C-0EC3-4D62-8B2B-1D3CE660605D}</Property>
+				<Property Name="RegGroup[0].RegData[0].name" Type="Str">DisplayVersion</Property>
+				<Property Name="RegGroup[0].RegData[0].type" Type="Str">String</Property>
+				<Property Name="RegGroup[0].RegDataCount" Type="Int">1</Property>
+				<Property Name="RegGroupCount" Type="Int">1</Property>
 				<Property Name="Source[0].dest" Type="Str">{ABA3B3DF-DB42-4121-BC41-C8CA9CE305B8}</Property>
 				<Property Name="Source[0].File[0].dest" Type="Str">{ABA3B3DF-DB42-4121-BC41-C8CA9CE305B8}</Property>
 				<Property Name="Source[0].File[0].name" Type="Str">Burn-In Software.exe</Property>
@@ -237,7 +257,7 @@
 				<Property Name="Source[0].File[0].Shortcut[1].destIndex" Type="Int">0</Property>
 				<Property Name="Source[0].File[0].Shortcut[1].name" Type="Str">Burn-In Software</Property>
 				<Property Name="Source[0].File[0].Shortcut[1].subDir" Type="Str">EPI_BurnIn</Property>
-				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">2</Property>
+				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[0].File[0].tag" Type="Str">{27726DBF-9B48-4046-8D75-FEB46F00794F}</Property>
 				<Property Name="Source[0].FileCount" Type="Int">1</Property>
 				<Property Name="Source[0].name" Type="Str">Burn-In Testing</Property>
